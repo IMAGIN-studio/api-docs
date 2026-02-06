@@ -1,0 +1,6 @@
+# Terminology
+
+Our Terminology
+
+<table><thead><tr><th width="247">Term</th><th width="485.3333333333333">Explanation</th></tr></thead><tbody><tr><td><p><strong>pspc</strong></p><p><em>primary spray can color</em></p></td><td></td></tr><tr><td><strong>spc</strong><br><em>spray can color</em></td><td></td></tr><tr><td><strong>API</strong><br><em>application programming interface</em></td><td>We have different API's where you can obtain our services.</td></tr><tr><td><strong>TTL</strong><br><em>time to live</em></td><td>A requested image has a 7 days TTL. This is to make sure the Cars we serve are always up-to-date.</td></tr><tr><td><strong>Data Points</strong></td><td>The information given in the URL on what exact image is requested.</td></tr><tr><td><strong>URL</strong><br><em>Uniform Resource Locator</em></td><td>Our CDN retrieves the requested information through the provided URL</td></tr><tr><td><strong>Limited contract</strong></td><td>This contract gives you access to the basic features of our platform.</td></tr><tr><td><strong>Premium contract</strong></td><td>Our most popular choice of contract with full access to all our features.</td></tr><tr><td><strong>Enterprise contract</strong></td><td>Tailor made contract with all functionality set at the highest priority.</td></tr></tbody></table>
+

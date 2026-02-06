@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Python
+.venv/
+
+# Claude Code
+.claude/
+
+# Project internal
+todo.md
+
+# Bugged asset
+.gitbook/assets/V233.webp

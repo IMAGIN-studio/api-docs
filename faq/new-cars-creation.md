@@ -1,0 +1,4 @@
+# New cars creation
+
+<table><thead><tr><th width="240">Question</th><th>Answer</th></tr></thead><tbody><tr><td>How often do you add new vehicles to your database?</td><td><p>We create new vehicles and trims daily.</p><p>We proactively develop new car models, anticipating market trends and customer needs. We also respond directly to customer demand, identified through both direct requests (e.g., via email) and analysis of API usage patterns. Requests for new models—whether received directly or identified through API insights—automatically trigger our production process. This process typically takes a few business days, depending on request priority and data availability. </p><p>We showcase most vehicle images well in advance of their release, giving you a competitive edge by enabling pre-sales opportunities.</p></td></tr></tbody></table>
+

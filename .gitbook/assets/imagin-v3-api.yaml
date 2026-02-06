@@ -1,0 +1,442 @@
+openapi: 3.0.3
+info:
+  title: Imagin Image API - OpenAPI 3.0
+  description: |
+  termsOfService: http://imagin.studio/terms/
+  contact:
+    email: support@imagin.studio
+  license:
+    name: Apache 2.0
+    url: http://imagin.studio/licence/
+  version: 2.0.11
+externalDocs:
+  description: Find out more about Swagger
+  url: http://swagger.io
+servers:
+  - url: https://cdn.imagin.studio
+tags:
+  - name: Image APIs
+    description: For retrieving images
+    externalDocs:
+      description: Find out more
+      url: http://swagger.io
+  - name: Paint APIs
+    description: Access to Petstore orders
+    externalDocs:
+      description: Find out more about our store
+      url: http://swagger.io
+  - name: getCarListing
+    description: Operations about user
+security:
+  - customerId: []
+paths:
+  /getImage:
+    parameters:
+      - $ref: '#/components/parameters/make'
+      - $ref: '#/components/parameters/modelFamily'
+      - $ref: '#/components/parameters/modelRange'
+      - $ref: '#/components/parameters/modelVariant'
+      - $ref: '#/components/parameters/powerTrain'
+      - $ref: '#/components/parameters/bodySize'   
+      - $ref: '#/components/parameters/modelYear'   
+      - $ref: '#/components/parameters/trim'
+      - $ref: '#/components/parameters/paintId'
+      - $ref: '#/components/parameters/paintDescription'
+      - $ref: '#/components/parameters/rimId'
+      - $ref: '#/components/parameters/rimDescription'
+      - $ref: '#/components/parameters/interiorId'
+      - $ref: '#/components/parameters/interiorDescription'
+      - $ref: '#/components/parameters/steering'
+      - $ref: '#/components/parameters/transmission'
+      - $ref: '#/components/parameters/region'
+      - $ref: '#/components/parameters/tailoring'   
+      - $ref: '#/components/parameters/angle'   
+      - $ref: '#/components/parameters/width'   
+      - $ref: '#/components/parameters/fileType'   
+      - $ref: '#/components/parameters/zoomType'   
+      - $ref: '#/components/parameters/zoomLevel'   
+      - $ref: '#/components/parameters/margins'   
+      - $ref: '#/components/parameters/groundPlaneAdjustment'   
+      - $ref: '#/components/parameters/safeMode'   
+    get:
+      tags:
+        - Image APIs
+      summary: Get car images based on search criteria
+      description:  |
+        By providing search critiaria and formatting options, load car images in a webpage of mobile app or any other dynamically loading device. 
+        Any parameters you don't wish to specify may be omitted.<br/>
+
+        <br/> <br/>
+        <center><b> Add your customerId to the payload via the authorize button when interactively trying the API</b></center>
+        
+        <center><font color="red">Downloading images to proxies, caches, webservers etc is strictly prohibited.</font></center>
+      
+      operationId: getImage
+
+
+      responses:
+        '200':
+          description: successful operation
+          # content:
+            # application/json:
+              # schema:
+                # type: array
+                # items:
+                  # $ref: '#/components/schemas/Pet'          
+components:
+
+  securitySchemes:
+    customerId:
+      name: customer
+      in: query
+      type: apiKey   
+  parameters:
+    make:
+      name: make
+      in: query
+      description: The make / brand / manufactorer of the car you are requesting.
+      schema:
+        type: string
+      example: VW
+    modelFamily:
+      name: modelFamily
+      in: query
+      description: The modelFamily of the car you are requesting.
+      required: true
+      example: Golf
+      schema:
+        type: string
+    modelRange:
+      name: modelRange
+      in: query
+      description: Key to differentiate special model lines such as Audi S, BMW M, Mercedes AMG, etc.
+      required: false
+      example: gte
+      schema:
+        type: string
+    modelVariant:
+      name: modelVariant
+      in: query
+      description: The modelFamily of the car you wish to query. Next to the list below, codes from most data vendors are accepted.
+      required: false
+      example: hatchback
+      schema:
+        type: string
+        enum: 
+          - hatchback
+          - sedan
+          - estate
+          - mpv
+          - suv
+          - convertible
+          - coupe
+          - targa
+          - pickup
+          - closed-cabin
+          - double-cabin
+          - passenger-cabin        
+    powerTrain:
+      name: powerTrain
+      in: query
+      description: Specifies the drive type of the car.
+      required: false
+      example: petrol
+      schema:
+        type: string
+        enum: 
+          - petrol
+          - lpg
+          - diesel
+          - hybrid
+          - plug-in-hybrid
+          - electric
+          - hydrogen
+    bodySize:
+      name: bodySize
+      in: query
+      description: Specifies the car`s body size. For passenger vehicles you specify the number of doors. For commercial vehicles this attribute is used to specify the height and length of the vehicle (L1H2).
+      required: false
+      example: "5"
+      schema:
+        type: string
+        enum: 
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - L1H1
+            - L2H1
+            - L3H1
+            - L2H1
+            - L2H2
+            - L2H3
+            - L3H1
+            - L3H2
+            - L3H3
+    modelYear:
+      name: modelYear
+      in: query
+      description: The year of introduction of the model or facelift, incremented by one. Trims are classified by the introduction year in which the modelFamily was launched, not the trim itself. The CDN will look for a car that is equal or older than the year requested.
+      required: false
+      example: 2023
+      schema:
+        type: string    
+        enum:
+          - "2023"
+          - "2022"
+          - "2021"
+          - "2020"
+          - "2019"
+          - "2018"
+          - "2017"
+          - "2016"
+          - "2015"
+
+    trim:
+      name: trim
+      in: query
+      description: The name of the trim / edition you are requesting. Cleaned from any engine, powertrain or other data. Trim requests that include other data than trim name is ignored.
+      required: false
+      example: highline
+      schema:
+        type: string
+    paintId:
+      name: paintId
+      in: query
+      description: |
+        The product id / product code of the paint option you wish to receive. paintId's containing descriptions, rgb values or any information other than the product option code will be ignored. Defaults to imagin-grey if omitted or if not available.
+        <br/><br><i>Available with license:</i> premium, enterprise
+      required: false
+      example: imagin-grey
+      schema:
+        type: string
+    paintDescription:
+      name: paintDescription
+      in: query
+      description: |
+        The description of the paint you have requested with the paintId. If the paintId can not be resolved, this property is used to identify  the requested paintId. Unresolvalble paintId's can not be resolved if paintDescrption is not supplied.
+        <br/><br><i>Available with license:</i> premium, enterprise
+      required: false
+      example: Gletscherweiss Pearl
+      schema:
+        type: string      
+    rimId:
+      name: rimId
+      in: query
+      description: |
+        The product id / product code of the rim option you wish to receive. rim Id's containing descriptions or any information other than the product option code will be ignored. Defaults to the modelFamily or trim specific rim if omitted or if not available.
+        <br/><br><i>Available with license:</i> premium, enterprise
+      required: false
+      schema:
+        type: string
+    rimDescription:
+      name: rimDescription
+      in: query
+      description: |
+        The description of the rim you have requested with the rimId. If the rimId can not be resolved, this property is used to identify the requested rimId. Unresolvalble rimId's can not be resolved if rimDescription is not supplied.
+        <br/><br><i>Available with license:</i> premium, enterprise
+      required: false
+      schema:
+        type: string     
+    interiorId:
+      name: interiorId
+      in: query
+      description: |
+        The product id / product code of the rim interior you wish to receive. interior Id's containing descriptions or any information other than the product option code will be ignored. Defaults to the modelFamily or trim specific interior if omitted or if not available.
+        <br/><br><i>Available with license:</i> premium, enterprise
+      required: false
+      schema:
+        type: string
+    interiorDescription:
+      name: interiorDescription
+      in: query
+      description: |
+        The description of the interior you have requested with the interiorId. If the interiorId can not be resolved, this property is used to identify the requested interiorId. Unresolvalble interiorId's can not be resolved if interiorDescription is not supplied.
+        <br/><br><i>Available with license:</i> premium, enterprise
+      required: false
+      schema:
+        type: string       
+    steering:
+      name: steering
+      in: query
+      description: Left or right hand driven car. When a car is unavailable right hand drive the left hand drive will be shown.
+      required: false
+      schema:
+        type: string
+        enum:
+          - lhd
+          - rhd
+        default: lhd
+    transmission:
+      name: transmission
+      in: query
+      description:  Type of transmission installed in the vehicle. Automatic or manual.
+      required: false
+      schema:
+        type: string
+        enum:
+          - automatic
+          - manual
+        default: manual
+    region:
+      name: region
+      in: query
+      description: Type delivery region of the vehicle. This may change appearence due to local legislation. For example the licenseplate or lights. 
+      required: false
+      schema:
+        type: string
+        enum:
+          - eu
+          - us
+        default: eu
+
+        
+    tailoring:
+      name: tailoring
+      in: query
+      description: |
+        The tailoring id you have been given for your tailoring. Will default to your standard tailoring if ommited. 
+          <br/><br><i>Available with license:</i> premium, enterprise
+      required: false
+      schema:
+        type: string
+
+    angle:
+      name: angle
+      in: query
+      description:  |
+        The viewpoint of the camera relative to the car.
+        <br/><br><i>Freemium licence limitation:</i> freemium licences are limited to angle 01
+      required: false
+      schema:
+        type: string
+        enum:
+          - "01"
+          - "05"
+          - "09"
+          - "13"
+          - "17"
+          - "21"
+          - "22"
+          - "23"
+          - "25"
+          - "27"
+          - "28"
+          - "29"
+          - "51"
+        default: "01"
+        
+    width:
+      name: width
+      in: query
+      description:  |
+        The width of the image you wish to receive. Any requested width is resolved back to the first larger standard CDN size. For example 745 returns 800. 
+        All sizes are web optimized except for 3456, which offers with highest quality possible disregarding file size.
+        <br/><br><i>Freemium licence limitation:</i> freemium licences are limited to width 400
+        <br/><br><i>Limited licence limitation:</i> limited licences are limited to widths 400 and 800
+      required: false
+      schema:
+        type: string
+        enum:
+          - "150"
+          - "400"
+          - "800"
+          - "1200"
+          - "1600"
+          - "2600"
+          - "3456"
+        default: "1200"
+
+
+    zoomType:
+      name: zoomType
+      in: query
+      description: |
+        Fullscreen make the car fit the entire canvas, so a smaller car is presented just as large as an LCV. Usefull for car detail pages
+        Relative takes into consideration the actual size of the car relative to other cars, providing a natural view when cars are listed site by site.
+      required: false
+      schema:
+        type: string
+        enum:
+          - relative
+          - fullscreen
+        default: relative
+
+    zoomLevel:
+      name: zoomLevel
+      in: query
+      description: |
+        Influences the amount of white space shown around the car in the image.
+        <br/><br><i>Available with license:</i> premium, enterprise
+      required: false
+      schema:
+            type: integer
+            minimum: 0
+            maximum: 30
+            default: 15
+    groundPlaneAdjustment:
+      name: groundPlaneAdjustment
+      in: query
+      description: |
+        Decimal point percentage to change the position where the car wheels touch the ground. An automated offset may be applied to your settings.
+        <br/><br><i>Available with license:</i> premium, enterprise
+      required: false
+      schema:
+            type: number
+            minimum: -1
+            maximum: 1
+            default: 0.08
+    margins:
+      name: margins
+      in: query
+      description: |
+        Range in % of width and heigt of margins around the used area of the image.
+        <br/><br><i>Available with license:</i> premium, enterprise
+      required: false
+      schema:
+            type: number
+            minimum: 0
+            maximum: 0.4
+            default: 0.02
+            
+    safeMode:
+      name: safeMode
+      in: query
+      description: |
+        Safemode prevents cut-offs of content as a result to changes to margins, zoomLevel and / or grounsplaneAdjustment. If the cut-off is desired and not accidental. Safemode may be switched to false (off).
+      required: false
+      schema:
+        type: boolean
+        enum:
+          - true
+          - false
+        default: true
+
+    fileType:
+      name: fileType
+      in: query
+      description: |
+        The type of image you wish to receive. PNG's and WEBP are transparent. All file types are web obtimized.
+        webp and png are <br/><br><i>Available with license:</i> premium, enterprise
+      required: false
+      schema:
+        type: string
+        enum:
+          - webp
+          - png
+          - hpg
+        default: webp
+
+    countryCode:
+      name: countryCode
+      in: query
+      description: |
+        To specify a countrycode. May be used for personalized (country based) license plates.
+      required: false
+      schema:
+        type: string
+        enum:
+          - webp
+          - png
+          - hpg
+        default: webp
