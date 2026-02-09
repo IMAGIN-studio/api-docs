@@ -39,6 +39,7 @@
 * [Dashboard](faq/dashboard.md)
 * [Incorrect image](faq/incorrect-image.md)
 * [New cars creation](faq/new-cars-creation.md)
+* [SEO & GEO Optimization](faq/seo-and-geo-optimization.md)
 * [Paints](faq/paints.md)
 * [Terminology](faq/terminology.md)
 
