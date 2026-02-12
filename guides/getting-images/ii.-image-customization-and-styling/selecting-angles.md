@@ -1,20 +1,3 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # 📐 Selecting Angles
 
 ## Selecting Angles: Total Perspective Control
@@ -33,15 +16,38 @@ https://cdn.imagin.studio/getImage?customer={yourcustomerkey}\&make=bmw\&modelFa
 
 Our Standard Angles are ideal for consistent static imagery across your platform. These angles are pre-selected to capture the most visually impactful perspectives for listings, search results, and banners.
 
-| **Angle Range** | **Purpose**                                                                                     | **Examples**                       |
-| --------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------- |
-| 01 to 33        | Key marketing and inventory shots, including front-three-quarter, side-profile, and rear views. | `angle=01`, `angle=09`, `angle=23` |
+| **Angle Range**               | **Purpose**                                                                                     | **Examples**                       |
+| ----------------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------- |
+| 01 to 51 (14 specific angles) | Key marketing and inventory shots, including front-three-quarter, side-profile, and rear views. | `angle=01`, `angle=09`, `angle=23` |
 
 <div><figure><img src="https://cdn.imagin.studio/aGha7p-IFBVHfYha8zggrhlhlkm6OCS3QTWLQe4mJrRBLpZB-EEpmjBlkkLlRXLtHC6WQfgwKY5FZmZLoZwx6Al6MghCOiG5kFGe8U9od0jsMN1c-TIss0o1nlu6NiqpSnyJV986IbkZON1C9TYgsldtq0L9ISCIXXienvkgY6xFYROV1TF4rFd4mB6sfnP6HRWycQvlmdPpQaZJC8ycsskM1kkP7cz-zS2WvV-wweK5BZKFamiMg-nVh9Vr0aFPqdDjdVPM6KA" alt=""><figcaption><p>angle 01</p></figcaption></figure> <figure><img src="https://cdn.imagin.studio/P5jb_Uy9OPVJc3DmVDYuoBeGb0e0Niq5TzuFT-AoKLpPIJhP9j4nlEtrnEzrZnzjEiCYT_Y-TV68naJJFgDxLrwd0hgb_NC-3Rl-QQeBmeWgbPtNS9-IiPEQ7kFW0OCSnRHKHWdF7NLcXNtNM-y8uvFljpUzzLy6GU3aQHZAubaJLb_dUmz92oll2lhCiYn30S2iSTPdmfvReZ5xMniki_U07nE28fTG9RWuhWeI-dqBPapRU-y0u9F1vkVT6ZnrkGjbTWv00Jg" alt=""><figcaption><p>angle 05</p></figcaption></figure> <figure><img src="https://cdn.imagin.studio/RMityQn1hdKtAeo9d9D8nqR5mkU69PyOwRjKMRukhIbNFKZFG_zcunUZilUXib3XqGymRRv83LolCpptMYTU27w6mjw_2PSa-T1aZSOlveesScNpb_jU3tE0ymVy9MS2uTXuOUNg9Jr4eP9pF8jEntVBqrEX6JiePWn-ZFP4nZJdCZpJd0jZ_q1B_nxmra3T9QmGbRf5ve_1XbpVF9JkrtUQyIET8lTi0TGKoUOs3f6lGY51d8iQn_VRmmF3zb3PtEz_aU_Q9Lw" alt=""><figcaption><p>angle 09</p></figcaption></figure> <figure><img src="https://cdn.imagin.studio/UDCMjDs-o2JdZ5JA6SJytAN7jFOgOiKtWy9RkfQ8PK5bNFtb4iozgF9_l1j_cmj3BjSIW-IqM5RffIZRuygr8hNgkhLrIDujUkuEVfRybfYPKsdG4yh3qVA2hEGgLC9sUGaTTcUgszsDIsdY7-o6qBE13sVgs5zqSR2KECeM6ebZf9o9Azytie022ggS2dmngX3yGWONybvUYZoBd6iAtr1B13F3rKHm8UX2MYP8_OvtMd41y8iYpo1VliBjyJ2L3CCLREvwgMKs" alt=""><figcaption><p>angle 13</p></figcaption></figure></div>
 
 <div><figure><img src="https://cdn.imagin.studio/Sm8zACM4jOxFf4pY8ToirBtjlEvrOia4QzeJQ7UkJLZDLJRD-jIrmEdnkEDnanB2HiyUQ_oy7ytHZJ5JozDy6mp4igozOPO7C1OcTexqde4XMt9e-zAusUgJ3nFm4NCirSH6LVd04I7sbOt9A9zQisFVvqUD_IyKKX3qcEfuPYa5HYyJY15d6rlV6mhyubnH4SWSeR_tqdulAfphF8mo1t0htxEXzMGGkSWWUeOcnIuNUb5VN6j4xuwB9kEjqP3rvEDrJCuQ4KLM" alt=""><figcaption><p>angle 17</p></figcaption></figure> <figure><img src="https://cdn.imagin.studio/7p3NJe7yc31MdoNR-DMrpRJqnUKxMy-8Sj6ASuUtLb9KJZ1KYzsikfNAmW5OY3nmF0mdSvM7IoVObZdAqjk64wJxgwP6MSqyQ1qVROVjfOceO9ZX8jknuEE-lVCxPSGiQXeCXNQxKrISM9ZJ_j0ruVxmoElj9iuDVnOVGCoruqdOap5R3jpop1xzkxWnZ3jxTm2XSfJjfOYJd4ZMQ-zE8vkFkZkz7OWitQJFscfouK-pdZpxE4zc4sgl0mUHjNnPmGTPAA-0x5yE" alt=""><figcaption><p>angle 21</p></figcaption></figure> <figure><img src="https://cdn.imagin.studio/IMVBibF-29tFdZ5JA6SI6tAN7jFOgIj6tWy-RW_Q8PK7qNIxbWyozgOJ_iFj_cmj3BjSMW-IqM5RffIZRu3Ir8ihgkhLrEzujUkuEVfRybfYPKsdG4yg2qVAvhEF3LDCzUKCTTWYgO6MDIsdY7yw6qE13sVjnOzqSR2KECeM6eXJfe49Az7ZiK01iggS2dmngX3yGWONybfQYZoBd6iAtr1B13F3rKHm8UX2MYP8_OvtMd41V8iaXoxhlUSnyJ4j3CCJQEvwgMKs" alt=""><figcaption><p>angle 22</p></figcaption></figure> <figure><img src="https://cdn.imagin.studio/YLIp5KYe5XFbKZRG7yQ8YQXwilWmJDh9XauXXVc6OqhDdMoryXSw1hll5jl75dG7xADKKXeQsNZJZeoBXvS4t9BVmlBTtJj2lVE2CU_J0a_AJkSxA7C4wr1bBgkflKja1VmCVS8MmPaUFJMFe6So8rktxt15qPeGUQWSCDzw8f7BZfYlGyS1ksEtkhAKwcG_mWXSAXuV0a_N6HoZb7CYrqVZz2lvtLn-6V3uKZvk5PP10cYtT9EovpSBjjlb0IWTxDiTXFPomNq0" alt=""><figcaption><p>angle 23</p></figcaption></figure></div>
 
 <div><figure><img src="https://cdn.imagin.studio/n1Q9QBabSkRCeI1f9j0lqxxkk0y_PSGyRDCOROsjI7FOK5NE_TUsn0Rgl-ngbXdHGSuT6P01LItAY5lOpDc07QxojXP0Pw28TX-bJOttcukQNW1Z_Ngptk8wN16_My-sT4h5Uto_JLwcjNhH8DMlt1JorvVHJCWNWH2b-PwlZqlAZJBf0DR9KqVJ9nRupaXb_QGNtR_xtcuyZeQdC9T8ysE9qw0L0N2ajTmKTf-AgJeRTaJJK7Tk2vAd6l0_tOH3oFz3ODeM_L7Q" alt=""><figcaption><p>angle 25</p></figcaption></figure> <figure><img src="https://cdn.imagin.studio/_6Tkj6D2-PJQatpNny83uQ52gV6tLzOgViKcVvkxMaNWOYFWJ-8-jVJyhVUnf2X6CzmBVu8nPgKZcYtctiUmUh5tnx_mLTauX0aJWPl_YHIC-8pL7iU7J10iiU6ytIT2-XWueQMgtNq4OL8pV4iE3pUB6vFXqNjefSm-JBO43dLtSdlyCwiZvu0BvTQm7e2TtUnGLVe5_YPwVa41Q5y0gol140VDmJXSxXHCBbT4y8vZVaoBVNyEgrlZx_U7KJiajDi7iCbtkKKRc" alt=""><figcaption><p>angle 27</p></figcaption></figure> <figure><img src="https://cdn.imagin.studio/_npoJzs_L1RYYpdF7GP1sQZ-iVYnJ6WoXiqEUXvE5OateMYle5y82hVp6jV36d23yAzGJXucvNpFaeYNUvi0u9xZllxfuJaimV04-UPF3gfMKL8JD5i0zrFU2gUSlKSq2VVSWNcAlPqYGSMJd6ik_rUhytF3iPj-XQmeBDOY_fLNafopFyi5ns0hnhwGzc2zlWnmDXeZ3aPsdY4VY7yUoqlRw2VjuLXxVuXiJZfo6P_5dYohd8Ckopl55wkbqLi6rBibSAbNsIAqs" alt=""><figcaption><p>angle 28</p></figcaption></figure> <figure><img src="https://cdn.imagin.studio/SU3xPjQ95K1LcYRW__wsohVtmkU0tii7YU2THTeIqKrg5IppN9Dwllklpnk7pZH7hECKaTeBHJfRJapA8gkc95AV2hAT9Ni21RF2SQ-Jke-AZPNFQ9T4gv0Y5kle2OialRnCFW9M2LbUVNNFOgTosvlth-U6nLSyEZHSSH_Vkb6BRbZlW2Sx0oFt0lBKgYH_2SWqQTvVke-kOcJZL_DY7uUZjykv9Pm-qR2uadnop6e1aYZtDLDA_tQ5znkbkMXThHjTHBOo2Jr0" alt=""><figcaption><p>angle 29</p></figcaption></figure> <figure><img src="https://cdn.imagin.studio/XKXyJSFW-WtQap9N5C83uQ52gX-tXjOgViKcL_kxMaNWOYFWmic-jVJy71WFf2X6CzmBVu8nPplScYtctiUm_x5tnx9hLeauX0aJWDZ_YPsCJ8pL7uc7pF0iiUwlrT2-XWue6QMgtNnoOrspV4iE3L0B6vFXqNjefSm-JBO43dLtSdoJNwiZvu0Bvjwm7e2TtUvuLVe5_YXEV-I1Q538goi140VDmXXSxXHCBbfIyN_ZBeoBY_yskrhVohV3_Km_6BS_cH_EtPaY" alt=""><figcaption><p>angle 33</p></figcaption></figure></div>
+
+<details>
+
+<summary>View all 14 static angle descriptions</summary>
+
+| Angle | Description                                                                                                                                                                               |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 01    | Front three-quarter view from the right side at a low angle from wheel height. Full vehicle in frame at medium distance.                                                                  |
+| 05    | Right-side profile view at a low angle from wheel height, perpendicular to the vehicle. Full vehicle in frame at medium distance.                                                         |
+| 09    | Front three-quarter view from the right side at a low angle from wheel height, offset roughly 30–45 degrees from the front axis. Full vehicle in frame at medium distance.                |
+| 13    | Straight-on rear view at a low angle from bumper height. Full vehicle in frame with symmetrical composition.                                                                              |
+| 17    | Front three-quarter view from the right side at a low angle, slightly below beltline height. Full vehicle in frame at medium distance.                                                    |
+| 21    | Left-side profile view at eye level, perpendicular to the vehicle. Full vehicle in frame with a flat side-elevation composition.                                                          |
+| 22    | Right-side profile view at eye level, perpendicular to the vehicle. Full vehicle in frame with a flat side-elevation composition.                                                         |
+| 23    | Front three-quarter view from the left side at a low angle from wheel height. Full vehicle in frame at medium distance.                                                                   |
+| 25    | Front three-quarter view from the left side at a low angle from bumper height, with the front end more prominent than the side. Full vehicle in frame at medium distance.                 |
+| 27    | Front three-quarter view from the left side at an elevated angle, well above roof height looking downward. Full vehicle in frame with the hood, roof, and windshield prominently visible. |
+| 28    | Front three-quarter view from the left side at eye level. Full vehicle in frame at medium distance, showing a balanced perspective of the front end and left-side flank.                  |
+| 29    | Straight-on front view at eye level. Full vehicle in frame with symmetrical composition.                                                                                                  |
+| 33    | Overhead view, looking straight down from directly above. Full vehicle in frame showing the complete top-down silhouette.                                                                 |
+| 51    | Front three-quarter view from the right side at eye level, offset roughly 30–40 degrees from the front axis. Full vehicle in frame at medium distance.                                    |
+
+</details>
 
 ***
 
@@ -74,3 +80,44 @@ _(Note: We recommend including `webp` or `png` for transparent backgrounds when 
 <div><figure><img src="https://cdn.imagin.studio/KqFYc_5aWTS-b5pI4VUyvAtzhFuoKqs2UyeZU_w0paZTPIRT6iI7iFd3gFD3emD_DjyEIeoiU5xXdI47syAj-htomhrjKDPCWkOMXat6ZSfY_AdO6yA-Is8njEmoJDi7WG6bRc0oM6sLKs9Q5yQyoEV_uVDvMzIiT1GMauuacTJXAYdIxyNqvkVqigy-fmHoV3SOUOt6ZfwCPJ1d5ys4vF90jgHnKj3DoTHWG" alt="" width="375"><figcaption><p>angle 224</p></figcaption></figure> <figure><img src="https://cdn.imagin.studio/n5dLOTmbL6dOdEFT-jEpp4FoEECzOjG-SDyCSOctL71IJ0qf8Tkgk0xsSEvsYXvkFSefSPE5IIdMb5VCqDs44QBzgQH4MyiwQdmXRlhhfuUc5zxV8DslukPUPFKOzPyOgQ3WAXtYzKLAQMdTD_D8pu15kS6L0KCmBVHGXGvApaqVMaJxT3DhxpV5xkRelZXrzTG-VS_BhfrAYJ4ZG_DAj50RvlRr8MSvzV26d" alt="" width="375"><figcaption><p>angle 225</p></figcaption></figure> <figure><img src="https://cdn.imagin.studio/LNHOakEu9NC1DeYxe9zwkqh1lkk2-PCCzRTGPReoivSJFKpJF_DSwnkFhlkbhbHbpGCqSRfw0LYpBYphPpTY17A1-jNQMPjG9TEya9epsVeglEc5Y_TYot04x2V--Mi4mTniNU9utJT4dPNlG8TIktlNpr0b5JSSMWXyaF_0kZ6hBZZFe0TV8qFN8nBqoaHf-QWKYRv1sc-oWKotL8T0uqkliR5jxNzz-WmMX" alt="" width="375"><figcaption><p>angle 226</p></figcaption></figure> <figure><img src="https://cdn.imagin.studio/P4lXBi02XZdYYpdF7Cc_sQZ-iValJzuoXioqXvE5L6telDFe5zkvhVp6jV36d23yAzGJXucvNpFaeYNUvi0u99VlFhfuJT6ml06BUPHPaPMKL8JDd-YzrFUqgUSlKTW2XGOEWLMAlV6ZVJ8I-6ilIpkhytF3iPj-tQmeBDOY_fLNafopFyi5ns0hnhwGzc2zlWnmDXeZ3aPEMMZBQ6iY1sVJ5gwzqJz3lQXiL" alt="" width="375"><figcaption><p>angle 227</p></figcaption></figure> <figure><img src="https://cdn.imagin.studio/ZVwVBLFvVVxeYJVa7iU9CsyhHi6SnJTlUfCiWqvM7O6lcM4tc5S0th1h4j1_4NHXwATOLXOUtNJNYe4HXvC8s9RRnVpXsJzykVUyDUvN1avEILcBB5C8xrlcog0anKze0V2GUSsInPKQEJcBf6Cs9r0pwtl_gPD2VQGWDDuQ9fs1YLohHsSxlyHxKhQOxcW7nWHuBX-R1avMBM5JS6CQ3s1B7gQ7oJT_nQ3qJ" alt="" width="375"><figcaption><p>angle 228</p></figcaption></figure> <figure><img src="https://cdn.imagin.studio/NHzoa2pFN79Be45c9T4mqB9nkE-8PiKxRzONR-ggILJHKJBH_jYvnENjlETjbnTrGiiQR_42NYhDM5pNpzQv7g9gjg7MPCe_Tlf3SZhOcepuNttaN_xMqtUwzmF28MCy_THqPUdk8J68fPts-8zAmtFFErUT7JyaOW36YFf8mZapDZ5Nc09Z-qlF-nhg3qnX8Q2CaRP9ucegbKIlJ8z8sqEtgmjbzFST8WGGS" alt="" width="375"><figcaption><p>angle 229</p></figcaption></figure> <figure><img src="https://cdn.imagin.studio/XUq9MT5-T2iEpeo9A9D8nqR5mkU69P74jRkSMMukhsLNGRpFG_zcunUJilUXib3XqGymRRv83LolCYZtMpjU27w59jw_2PSa-T1aZSOlvcOsSN9pbzTUrtE0y_lyZMS2uTXs0UNg9jr4ePyZF8jEntVBqrEX6JiePWn-ZFP4nZKtCZtddkjZ_q1B_0hmra3T9QmGbRf5vcOgyE4hI8j4tqSlhNxTymyX9WWA_" alt="" width="375"><figcaption><p>angle 230</p></figcaption></figure> <figure><img src="https://cdn.imagin.studio/OJOKbrcuNTZbYZRG7yRUsjx9ilWmJAWrXSmXXfI6L6hdMopd5Cxfhll51jr5dF7xADKOXeQsNZJZeoBXvSwt9BVmlBTtJj2lVE2CU_J0a_AJLMFA5S4wr1YpgkemKja1VmCVS8MmPaUFJMxewSo8rktx6V7hPTyUQWSCD-U8f7BZfYlGyS1ksEtkhAKwcG_mWXopXuV0pWsJgDJT6SXzslDF6gA_pJD7mQnuI" alt="" width="375"><figcaption><p>angle 231</p></figcaption></figure></div>
 
 An example of how to code a 360° spinner can be found [here](../../../api-integration/manuals/360-example.md).
+
+<details>
+
+<summary>View all 32 interactive angle descriptions</summary>
+
+| Angle | Description                                                                                                                                                                                                                          |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 200   | Position 1 of 32 — Straight-on front view at eye level. Full vehicle in frame with symmetrical composition.                                                                                                                          |
+| 201   | Position 2 of 32 — Front three-quarter view from the right side at eye level, just off the front-center axis. Full vehicle in frame, revealing a sliver of the right-side flank.                                                     |
+| 202   | Position 3 of 32 — Front three-quarter view from the right side at eye level, rotated further toward the side. Full vehicle in frame with more of the right-side profile visible.                                                    |
+| 203   | Position 4 of 32 — Front three-quarter view from the right side at eye level, offset roughly 35–40 degrees from the front axis. Full vehicle in frame showing a balanced mix of front fascia and right-side flank.                   |
+| 204   | Position 5 of 32 — Front three-quarter view from the right side at eye level, offset roughly 45 degrees from the front axis. Full vehicle in frame with the right-side profile dominating over the front face.                       |
+| 205   | Position 6 of 32 — Near-profile view from the right side at eye level, with the front corner still slightly visible. Full vehicle in frame at medium distance.                                                                       |
+| 206   | Position 7 of 32 — Right-side profile view at eye level, nearly perpendicular to the vehicle. Full vehicle in frame with only a minimal hint of the front face remaining.                                                            |
+| 207   | Position 8 of 32 — Right-side profile view at eye level, perpendicular to the vehicle. Full vehicle in frame showing the complete side elevation.                                                                                    |
+| 208   | Position 9 of 32 — Right-side profile view at eye level, rotated just past perpendicular. Full vehicle in frame with the rear quarter barely emerging.                                                                               |
+| 209   | Position 10 of 32 — Rear three-quarter view from the right side at eye level. Full vehicle in frame, showing both the side profile and the emerging rear face.                                                                       |
+| 210   | Position 11 of 32 — Rear three-quarter view from the right side at eye level, offset roughly 30–35 degrees behind perpendicular. Full vehicle in frame with both the right-side flank and rear fascia clearly visible.               |
+| 211   | Position 12 of 32 — Rear three-quarter view from the right side at eye level. Full vehicle in frame, with the side profile dominant and a partial view of the rear.                                                                  |
+| 212   | Position 13 of 32 — Rear three-quarter view from the right side at eye level. Full vehicle in frame, with the rear fascia more prominent and the side profile beginning to foreshorten.                                              |
+| 213   | Position 14 of 32 — Rear three-quarter view from the right side at eye level. Full vehicle in frame, with near-equal emphasis on the rear and right side.                                                                            |
+| 214   | Position 15 of 32 — Rear three-quarter view from the right side at eye level. Full vehicle in frame, with the rear fascia dominant and only a narrow sliver of the right-side flank visible.                                         |
+| 215   | Position 16 of 32 — Near-straight-on rear view with a slight right-side offset at eye level. Full vehicle in frame, with the rear end dominating the composition.                                                                    |
+| 216   | Position 17 of 32 — Straight-on rear view at eye level. Full vehicle in frame with symmetrical composition.                                                                                                                          |
+| 217   | Position 18 of 32 — Near-straight-on rear view with a slight left-side offset at eye level. Full vehicle in frame, nearly symmetrical with a hint more of the left side visible.                                                     |
+| 218   | Position 19 of 32 — Rear three-quarter view from the left side at eye level. Full vehicle in frame, showing a clear portion of the left-side flank alongside the dominant rear fascia.                                               |
+| 219   | Position 20 of 32 — Rear three-quarter view from the left side at eye level. Full vehicle in frame, with roughly equal emphasis on the rear and left side.                                                                           |
+| 220   | Position 21 of 32 — Rear three-quarter view from the left side at eye level. Full vehicle in frame, with the side profile becoming more prominent than the rear.                                                                     |
+| 221   | Position 22 of 32 — Rear three-quarter view from the left side at eye level. Full vehicle in frame, strongly favoring the side profile with only a modest portion of the rear visible.                                               |
+| 222   | Position 23 of 32 — Left-side profile view at eye level with a very slight rear bias. Full vehicle in frame, nearly perpendicular to the vehicle's flank.                                                                            |
+| 223   | Position 24 of 32 — Left-side profile view at eye level, nearly perpendicular to the vehicle. Full vehicle in frame with an almost pure side-on perspective.                                                                         |
+| 224   | Position 25 of 32 — Left-side profile view at eye level, perpendicular to the vehicle. Full vehicle in frame showing the complete side elevation.                                                                                    |
+| 225   | Position 26 of 32 — Left-side profile view at eye level with a very subtle front bias. Full vehicle in frame, with the front end just barely beginning to angle toward the camera.                                                   |
+| 226   | Position 27 of 32 — Near-profile view from the left side at eye level, with a slight front three-quarter bias. Full vehicle in frame, revealing a sliver of the front fascia alongside the side profile.                             |
+| 227   | Position 28 of 32 — Front three-quarter view from the left side at eye level, offset roughly 30 degrees from the front axis. Full vehicle in frame showing a balanced mix of front fascia and left-side flank.                       |
+| 228   | Position 29 of 32 — Front three-quarter view from the left side at eye level. Full vehicle in frame, with the front end more prominent while still displaying the majority of the left side.                                         |
+| 229   | Position 30 of 32 — Front three-quarter view from the left side at eye level, offset roughly 40 degrees from the front axis. Full vehicle in frame, with the front fascia and hood nearly equal in prominence with the side profile. |
+| 230   | Position 31 of 32 — Front three-quarter view from the left side at eye level. Full vehicle in frame, with the front fascia and grille dominant while the left side recedes into foreshortening.                                      |
+| 231   | Position 32 of 32 — Near-straight-on front view with a slight left-side offset at eye level. Full vehicle in frame, with the front fascia dominating and only a narrow sliver of the left side visible.                              |
+
+</details>
