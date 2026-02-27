@@ -31,7 +31,7 @@ For precise results—down to the exact trim, body style, and engine—you can a
 | **Parameter**                                         | **Description**                                                                                                                             |
 | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | <mark style="color:green;">modelRange</mark>          | The specific model range or sub-model (e.g., `corolla-gr`).                                                                                 |
-| <mark style="color:blue;">modelVariant</mark>         | A variant code or body style (e.g., `ha` for hatchback, `pv` for panel van).                                                                |
+| <mark style="color:blue;">modelVariant</mark>         | A variant code or body style (e.g. hatchback and panel van).                                                                                |
 | <mark style="color:purple;">modelYear</mark>          | The model production year (e.g., `2023`).                                                                                                   |
 | <mark style="color:orange;">powerTrain</mark>         | The engine type (e.g., `petrol`, `hybrid`, `electric`).                                                                                     |
 | <mark style="color:$danger;">paintDescription</mark>  | The human-readable name associated with the paint color. This can be the OEM color name or an equivalent identifier (e.g. `vermillion-red`) |
