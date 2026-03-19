@@ -21,17 +21,6 @@ The `zoomLevel` feature does not apply when the `zoomType` is set to either `ful
 
 To use `zoomLevel`, you must ensure that `zoomType` is set to `relative`.
 
-#### Override Example for 360° Views
-
-By default, 360° views (`angle=200` to `231`) use `zoomType=adaptive`. If you need to manually control the magnification for a 360° sequence (which we generally advise against as it disrupts smoothness), you must override the default setting:
-
-Code snippet
-
-```html
-// Manually controls magnification for an angle by forcing the 'relative' mode
-...&zoomType=relative&angle=205&zoomLevel=15
-```
-
 ### Best Practice Recommendation
 
 We recommend using `zoomLevel` only when displaying a single, specific static angle (`angle=01` to `33`) where a desired magnification is required. Avoid using it for a full 360° spinner unless you fully understand the impact of overriding the default `adaptive` behavior.
