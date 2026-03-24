@@ -117,7 +117,7 @@ The following URL demonstrates a basic request for a BMW X1 lifestyle image. You
 
 <figure><img src="../../../.gitbook/assets/v29.webp" alt=""><figcaption><p>angle 29</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/V233.webp" alt=""><figcaption><p>angle 33</p></figcaption></figure>
+<figure><img src="/broken/files/oWyz0jpgolnNDsgIS9P1" alt=""><figcaption><p>angle 33</p></figcaption></figure>
 
 ### Aspect Ratio
 
