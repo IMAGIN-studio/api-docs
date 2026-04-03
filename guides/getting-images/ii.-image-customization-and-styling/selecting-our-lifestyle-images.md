@@ -85,6 +85,8 @@ The following URL demonstrates a basic request for a BMW X1 lifestyle image. You
 
 <figure><img src="../../../.gitbook/assets/v2sunsethouse.webp" alt=""><figcaption><p>Surrounding 35 (Sunset House)</p></figcaption></figure>
 
+<figure><img src="../../../.gitbook/assets/36.webp" alt=""><figcaption><p>Surrounding 36 (Redrock Desert 2.0)</p></figcaption></figure>
+
 <figure><img src="../../../.gitbook/assets/silver.webp" alt=""><figcaption><p>Surrounding 38 (Tundra Road)</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/v2euro.webp" alt=""><figcaption><p>Surrounding 39 (Dutch Terraced House)</p></figcaption></figure>
