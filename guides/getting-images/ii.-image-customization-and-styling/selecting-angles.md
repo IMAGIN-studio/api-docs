@@ -18,7 +18,7 @@ Our Standard Angles are ideal for consistent static imagery across your platform
 
 | **Angle Range**               | **Purpose**                                                                                     | **Examples**                       |
 | ----------------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------- |
-| 01 to 51 (14 specific angles) | Key marketing and inventory shots, including front-three-quarter, side-profile, and rear views. | `angle=01`, `angle=09`, `angle=23` |
+| 01 to 33 (13 specific angles) | Key marketing and inventory shots, including front-three-quarter, side-profile, and rear views. | `angle=01`, `angle=09`, `angle=23` |
 
 <div><figure><img src="https://cdn.imagin.studio/aGha7p-IFBVHfYha8zggrhlhlkm6OCS3QTWLQe4mJrRBLpZB-EEpmjBlkkLlRXLtHC6WQfgwKY5FZmZLoZwx6Al6MghCOiG5kFGe8U9od0jsMN1c-TIss0o1nlu6NiqpSnyJV986IbkZON1C9TYgsldtq0L9ISCIXXienvkgY6xFYROV1TF4rFd4mB6sfnP6HRWycQvlmdPpQaZJC8ycsskM1kkP7cz-zS2WvV-wweK5BZKFamiMg-nVh9Vr0aFPqdDjdVPM6KA" alt=""><figcaption><p>angle 01</p></figcaption></figure> <figure><img src="https://cdn.imagin.studio/P5jb_Uy9OPVJc3DmVDYuoBeGb0e0Niq5TzuFT-AoKLpPIJhP9j4nlEtrnEzrZnzjEiCYT_Y-TV68naJJFgDxLrwd0hgb_NC-3Rl-QQeBmeWgbPtNS9-IiPEQ7kFW0OCSnRHKHWdF7NLcXNtNM-y8uvFljpUzzLy6GU3aQHZAubaJLb_dUmz92oll2lhCiYn30S2iSTPdmfvReZ5xMniki_U07nE28fTG9RWuhWeI-dqBPapRU-y0u9F1vkVT6ZnrkGjbTWv00Jg" alt=""><figcaption><p>angle 05</p></figcaption></figure> <figure><img src="https://cdn.imagin.studio/RMityQn1hdKtAeo9d9D8nqR5mkU69PyOwRjKMRukhIbNFKZFG_zcunUZilUXib3XqGymRRv83LolCpptMYTU27w6mjw_2PSa-T1aZSOlveesScNpb_jU3tE0ymVy9MS2uTXuOUNg9Jr4eP9pF8jEntVBqrEX6JiePWn-ZFP4nZJdCZpJd0jZ_q1B_nxmra3T9QmGbRf5ve_1XbpVF9JkrtUQyIET8lTi0TGKoUOs3f6lGY51d8iQn_VRmmF3zb3PtEz_aU_Q9Lw" alt=""><figcaption><p>angle 09</p></figcaption></figure> <figure><img src="https://cdn.imagin.studio/UDCMjDs-o2JdZ5JA6SJytAN7jFOgOiKtWy9RkfQ8PK5bNFtb4iozgF9_l1j_cmj3BjSIW-IqM5RffIZRuygr8hNgkhLrIDujUkuEVfRybfYPKsdG4yh3qVA2hEGgLC9sUGaTTcUgszsDIsdY7-o6qBE13sVgs5zqSR2KECeM6ebZf9o9Azytie022ggS2dmngX3yGWONybvUYZoBd6iAtr1B13F3rKHm8UX2MYP8_OvtMd41y8iYpo1VliBjyJ2L3CCLREvwgMKs" alt=""><figcaption><p>angle 13</p></figcaption></figure></div>
 
@@ -28,7 +28,7 @@ Our Standard Angles are ideal for consistent static imagery across your platform
 
 <details>
 
-<summary>View all 14 static angle descriptions</summary>
+<summary>View all 13 static angle descriptions</summary>
 
 | Angle | Description                                                                                                                                                                               |
 | ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -45,7 +45,6 @@ Our Standard Angles are ideal for consistent static imagery across your platform
 | 28    | Front three-quarter view from the left side at eye level. Full vehicle in frame at medium distance, showing a balanced perspective of the front end and left-side flank.                  |
 | 29    | Straight-on front view at eye level. Full vehicle in frame with symmetrical composition.                                                                                                  |
 | 33    | Overhead view, looking straight down from directly above. Full vehicle in frame showing the complete top-down silhouette.                                                                 |
-| 51    | Front three-quarter view from the right side at eye level, offset roughly 30–40 degrees from the front axis. Full vehicle in frame at medium distance.                                    |
 
 </details>
 
