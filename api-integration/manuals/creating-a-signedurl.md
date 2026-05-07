@@ -1,8 +1,37 @@
 # Creating a signedUrl
 
+A signed URL is a secured version of a standard IMAGIN.studio CDN request. The request parameters are masked, making it much harder for unauthorised parties to copy your customer key and use it on their own website.
+
+{% hint style="info" %}
+Important Considerations\
+\
+While signed URLs enhance security, there are specific behaviors regarding caching and updates that your development team must be aware of to ensure your website always displays the most accurate imagery.
+{% endhint %}
+
+#### Dynamic vs. Static Generation
+
+To ensure your website always serves the latest vehicle imagery, signed URLs must be dynamically generated on your end at the point of the request.
+
+If signed URLs are static, any updates made within our library - such as a new vehicle release, a mapping change, or an image correction - will not be reflected on your website until the signed URL is regenerated.
+
+* **Best Practice:** Generate signed URLs dynamically. This ensures that the correct images reflect eventually without any manual action required on your end.
+* **Static Risk:** If your implementation relies on static signed URLs, you will need to manually regenerate them whenever a data update is released to pick up the latest changes.
+
+#### Cache Flushing Limitations
+
+Because signed URLs mask the request parameters, IMAGIN.studio is unable to manually flush the cache for these specific requests on your behalf.
+
+In practice, this means that if a mapping update or an image correction is deployed on our end, the changes cannot be "forced" to appear via a manual flush of the signed URL. By following the dynamic generation strategy mentioned above, you bypass this limitation and allow the CDN to serve the updated content naturally as the dynamic URL parameters evolve.
+
+***
+
+## Implementation Guide
+
+Follow these four steps to generate and deploy your signed URLs.
+
 ## 1. Obtain API Credentials:
 
-Obtain your CDN API credentials, which consist of a "customerId" (username) and a "customerSecret" (password) specific to your CDN account. The customerId is what is used to connect to the CDN for front-end calls. The customerId and customerSecret can be found in the[ dashboard](https://docs.imagin.studio/faq/dashboard).
+Obtain your CDN API credentials, which consist of a "customerId" (username) and a "customerSecret" (password) specific to your CDN account. The customerId is what is used to connect to the CDN for front-end calls. The customerId and customerSecret can be found in the [dashboard](https://docs.imagin.studio/faq/dashboard).
 
 ## 2. Formulate API Request:
 
