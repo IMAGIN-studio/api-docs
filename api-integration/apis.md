@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # ⚙️ Api's
 
 {% hint style="info" %}
