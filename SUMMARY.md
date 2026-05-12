@@ -56,4 +56,3 @@
   * [Connecting to backend CDN API Methods](api-integration/manuals/connecting-to-backend-cdn-api-methods.md)
   * [Creating a signedUrl](api-integration/manuals/creating-a-signedurl.md)
   * [Embedding a referer](api-integration/manuals/embedding-a-referer.md)
-* [⚙️ Api's](api-integration/apis.md)
