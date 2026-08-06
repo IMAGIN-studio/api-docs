@@ -14,7 +14,7 @@ The `getPaintSwatches` API allows you to retrieve the color information based on
 
 #### API Endpoint URL
 
-<mark style="background-color:green;">https://cdn.imagin.studio/getPaintSwatches?</mark><mark style="background-color:yellow;">\&customer={yourcustomerkey}</mark>
+<mark style="background-color:green;">https://cdn.imagin.studio/getPaintSwatches?</mark><mark style="background-color:yellow;">\&customer={yourcustomerkey}</mark><mark style="background-color:blue;">\&make=bmw</mark><mark style="background-color:purple;">\&paints=376</mark>
 
 #### Required Parameters
 
