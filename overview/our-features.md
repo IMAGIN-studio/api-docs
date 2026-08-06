@@ -60,4 +60,4 @@ Stay ahead of the market with our rapid content deployment:
 
 Eliminate customer doubt by showcasing vehicles in realistic, contextual environments. Access a wide variety of surroundings via the API to instantly enhance the customer experience and visually confirm the car's presence in a specific setting.
 
-<figure><img src="../.gitbook/assets/getImage (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.imagin.studio/s/ZQT8cCLyobChUcJJb7ixlplxhr17gLz3nWmCVR-4lPbMEj4tUpyU5fFyqh0blIX4nVjaDX8escSlVNdtCuG4ooFB7knrldSiySXbWAeh8fqBXcopWsnl-u0dWi3_kPj2teiXAQPQ6Va4qe4Ja7y9Mskxn1QCnPzGlXGaFQeQtNoBWR5Fm::" alt=""><figcaption></figcaption></figure>
