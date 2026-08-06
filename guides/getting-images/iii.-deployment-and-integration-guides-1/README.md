@@ -1,5 +1,7 @@
 # IV. Service APIs
 
+Our Service APIs are configuration utilities that clients can use to build custom dashboards, internal tools, and interactive showroom widgets
+
 | **Page Title**                                                                                                                                                             | **Description**                                                                                                                                                                                    |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <h2><a href="https://docs.imagin.studio/guides/getting-images/iii.-deployment-and-integration-guides-1/getcarlisting-api-behavior"><code>getCarListing</code></a></h2>     | This endpoint allows developers to query our visual catalog structure. It is designed to act as the pipeline for your internal dashboards, back-office tooling, and user-facing inventory widgets. |
