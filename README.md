@@ -1,5 +1,6 @@
 ---
-cover: .gitbook/assets/getImage - 2026-01-12T160034.112.webp
+cover: >-
+  https://cdn.imagin.studio/s/UWblST4zTE1CZoSw-DpzSEp3ufH2OStRTHaDpfgsK0IS8p0gajO8L0qxllH2Kmi6QGeVTNE_I0O-es27-C4hA0Ztn7nnPycYW0qUtOQctPhEfZsewsT8gEEMxzbimeDRAQG686p47IlAfJeGigywhS0FnmaLwYz0DXTDDsvYtPkRMd6Lq4zchExwtxbOxKSdXSnCTh_I7IFFAcJnq_jE::
 coverY: 0
 ---
 
