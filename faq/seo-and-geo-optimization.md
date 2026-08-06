@@ -18,7 +18,7 @@ Search engines rely on text-based metadata to understand the context of an image
 A core SEO best practice is providing descriptive keywords within image alt tags. Since every request to our CDN contains specific identifiers, your development team can use these parameters to programmatically generate highly specific, keyword-rich alt text.<br>
 
 * How it works: Instead of generic alt text like "Car Image," you can dynamically pull the `make`, `modelFamily`, `modelYear`, and `paintDescription` from your data to create tags like:\
-  &#xNAN;_“Front view of a 2024 BMW X5 in Carbon Black Metallic”_
+  _“Front view of a 2024 BMW X5 in Carbon Black Metallic”_
 
 {% hint style="info" %}
 Implementation Note: The IMAGIN.studio API delivers the visual asset and the identifying metadata; however, the actual creation and placement of the alt tag must be configured within your website’s front-end code.

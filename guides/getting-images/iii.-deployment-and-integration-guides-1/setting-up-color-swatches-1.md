@@ -1,4 +1,4 @@
-# 🎨 Setting Up Color Swatches
+# 🎨 getPaintSwatches
 
 ## API Reference: `getPaintSwatches`
 
@@ -8,20 +8,7 @@ Providing paint data is key to ensuring seamless mapping and high-quality image 
 
 ***
 
-### 1. Understanding Paint Data Complexity
-
-Car paint data is complex due to various factors. The `getPaintSwatches` API helps abstract this complexity by providing the normalized data you need:
-
-* Regional Differences: A paint may be available in one country but not another.
-* Multiple Codes: The same color can be known by numerous product codes.
-* Model Specificity: A paint might be exclusive to specific vehicle models or trims.
-* Code Collisions: In rare cases, the same paint code might be used for two distinct colors by the same manufacturer in different markets.
-
-Recommendation: We highly recommend maintaining a record of the specific paint IDs you use across your channels. We use these IDs to map to our unique color identifiers, which we call the (spray can) identifiers.
-
-***
-
-### 2. API Endpoint: `getPaintSwatches`
+### 1. API Endpoint: `getPaintSwatches`
 
 The `getPaintSwatches` API allows you to retrieve the color information based on the paint IDs you provide. This data is essential for rendering accurate color swatches on your product pages.
 
@@ -31,25 +18,25 @@ The `getPaintSwatches` API allows you to retrieve the color information based on
 
 #### Required Parameters
 
-| **Parameter**                                          | **Type** | **Description**                                                                                 |
-| ------------------------------------------------------ | -------- | ----------------------------------------------------------------------------------------------- |
-| <mark style="background-color:yellow;">customer</mark> | String   | Your unique customer key.                                                                       |
-| <mark style="background-color:purple;">paintId</mark>  | String   | The specific Paint ID you want information for. (Must be a value already mapped in our system). |
-
-#### Optional Parameters&#x20;
-
-Providing vehicle context is recommended because many paint codes are not unique across different manufacturers or model lines. Including these parameters ensures you retrieve the correct swatch data.
-
 | **Parameter**                                          | **Type** | **Description**                                                                                                                   |
 | ------------------------------------------------------ | -------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| <mark style="background-color:yellow;">customer</mark> | String   | Your unique customer key.                                                                                                         |
+| <mark style="background-color:purple;">paints</mark>   | String   | The specific Paint ID you want information for. (Must be a value already mapped in our system).                                   |
 | <mark style="background-color:blue;">make</mark>       | String   | The vehicle manufacturer (e.g., `bmw`). Highly recommended to distinguish between identical paint codes used by different brands. |
-| <mark style="background-color:red;">modelFamily</mark> | String   | The vehicle model family (e.g., `x5`). Recommended to provide specific context for the paint.                                     |
+
+#### Optional Parameter&#x20;
+
+Providing vehicle context is recommended because many paint codes are not unique across different manufacturers or model lines. Including this parameter ensures you retrieve the correct swatch data.
+
+| **Parameter**                                          | **Type** | **Description**                                                                               |
+| ------------------------------------------------------ | -------- | --------------------------------------------------------------------------------------------- |
+| <mark style="background-color:red;">modelFamily</mark> | String   | The vehicle model family (e.g., `x5`). Recommended to provide specific context for the paint. |
 
 #### Example Request
 
 This request fetches the swatch data for a specific paint color, utilizing the vehicle context for accuracy:
 
-https://cdn.imagin.studio/getPaintSwatches?<mark style="background-color:yellow;">customer={yourcustomerkey}</mark><mark style="background-color:blue;">\&make=bmw</mark><mark style="background-color:red;">\&modelFamily=x5</mark><mark style="background-color:purple;">\&paintId=11272</mark>
+https://cdn.imagin.studio/getPaintSwatches?<mark style="background-color:yellow;">customer={yourcustomerkey}</mark><mark style="background-color:blue;">\&make=bmw</mark><mark style="background-color:red;">\&modelFamily=x5</mark><mark style="background-color:purple;">\&paints=376</mark>
 
 ***
 

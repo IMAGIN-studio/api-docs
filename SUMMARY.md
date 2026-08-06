@@ -14,8 +14,6 @@
     * [🚘 Selecting a Car](guides/getting-images/i.-core-data-and-setup/selecting-a-car.md)
     * [🎯 CAP HPI field mapping](guides/getting-images/i.-core-data-and-setup/cap-hpi-field-mapping.md)
     * [🚗 ACRISS Codes](guides/getting-images/i.-core-data-and-setup/acriss-codes.md)
-    * [📋 getCarListing API Behavior](guides/getting-images/i.-core-data-and-setup/getcarlisting-api-behavior.md)
-    * [🎨 Setting Up Color Swatches](guides/getting-images/i.-core-data-and-setup/setting-up-color-swatches.md)
   * [II. Image Customization & Styling](guides/getting-images/ii.-image-customization-and-styling/README.md)
     * [🎨 Selecting a Car Color](guides/getting-images/ii.-image-customization-and-styling/selecting-a-car-color.md)
     * [📐 Selecting Angles](guides/getting-images/ii.-image-customization-and-styling/selecting-angles.md)
@@ -26,6 +24,10 @@
     * [🖥️ Embedding in Your Website](guides/getting-images/iii.-deployment-and-integration-guides/embedding-in-your-website.md)
     * [📱 Embedding in Your Mobile App](guides/getting-images/iii.-deployment-and-integration-guides/embedding-in-your-mobile-app.md)
     * [📩 Embedding in your e-mail campaigns](guides/getting-images/iii.-deployment-and-integration-guides/embedding-in-your-e-mail-campaigns.md)
+  * [IV. Service APIs](guides/getting-images/iii.-deployment-and-integration-guides-1/README.md)
+    * [📋 getCarListing](guides/getting-images/iii.-deployment-and-integration-guides-1/getcarlisting-api-behavior.md)
+    * [🖌️ getPaints](guides/getting-images/iii.-deployment-and-integration-guides-1/setting-up-color-swatches.md)
+    * [🎨 getPaintSwatches](guides/getting-images/iii.-deployment-and-integration-guides-1/setting-up-color-swatches-1.md)
 * [Data Training](guides/data-training.md)
 
 ## FAQ

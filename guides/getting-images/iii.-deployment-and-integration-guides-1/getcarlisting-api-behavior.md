@@ -1,10 +1,12 @@
-# 📋 getCarListing API Behavior
+# 📋 getCarListing
 
 ## API Reference: `getCarListing`
 
-The `getCarListing` API endpoint is designed to help you integrate your internal content systems with the IMAGIN.studio catalog. It allows you to retrieve and filter into the vehicle data and images currently available on the CDN.
+This endpoint allows developers to query our visual catalog structure. It is designed to act as the pipeline for your internal dashboards, back-office tooling, and user-facing inventory widgets.
 
-It is intended for content system connectivity and is not a real-time coverage check. Our systems automatically create and add content when vehicles are requested via the primary `getImage` API.
+By utilizing `getcarlisting`, you can retrieve the exact parameters, IDs, and configurations needed to dynamically render and display high-quality vehicle assets via the IMAGIN.studio API.
+
+⚠️ **Please Note:** _This endpoint is a catalog exploration and image-integration utility. IMAGIN.studio is a visual content suite, not a standalone data provider; this API is not intended for raw data harvesting or general automotive dataset distribution._
 
 ***
 
@@ -79,6 +81,3 @@ const bmwModels = await getCarListing(["customer=<your customer key>", "make=bmw
 ```
 {% endcode %}
 
-#### Server-Side Referer
-
-If your system requires setting a `Referer` header manually for security or tracking, the request must be initiated from your server-side application, not directly from a visitor's web browser.
