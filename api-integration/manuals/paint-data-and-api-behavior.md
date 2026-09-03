@@ -133,5 +133,5 @@ The (optional) properties include modelRange, modelVariant, bodySize, modelYear,
                 }
 ```
 
-The result payload provides a list of paints (paintcombinations). Per paint the codes which are mapped to that particular paint combination is shown. If a paint is know to be available from the manufacturer it is listed as orderable = true. When the target=car property is used the result set will also include the available flag, indicating if rendering has already taken place, or rendering will take place on the first request.
+The result payload provides a list of paints (paintcombinations). Per paint the codes which are mapped to that particular paint combination is shown. If a paint is known to be available from the manufacturer it is listed as orderable = true. When the target=car property is used the result set will also include the available flag, indicating if rendering has already taken place, or rendering will take place on the first request.
 
