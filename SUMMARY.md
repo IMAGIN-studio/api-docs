@@ -50,7 +50,7 @@
 
 * [Manuals](api-integration/manuals/README.md)
   * [Getting Started](api-integration/manuals/getting-started.md)
-  * [AI-Powered API Documentation Search for Developers](api-integration/manuals/ai-powered-api-documentation-search-for-developers.md)
+  * [MCP API Documentation](api-integration/manuals/mcp-api-documentation.md)
   * [CDN Data Points](api-integration/manuals/cdn-data-points.md)
   * [getImage API Behavior & Timing](api-integration/manuals/getimage-api-behavior-and-timing.md)
   * [CDN Return Header Behavior](api-integration/manuals/cdn-return-header-behavior.md)

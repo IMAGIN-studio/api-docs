@@ -1,4 +1,4 @@
-# AI-Powered API Documentation Search for Developers
+# MCP API Documentation
 
 Give your AI coding assistant direct access to the full IMAGIN.studio documentation, from CDN data points and getImage parameters to paint matching, 360° spinners and deployment guides, so you can build faster without leaving your editor.
 
@@ -56,11 +56,31 @@ Step-by-step setup instructions for each of these agents are on the [PyPI setup 
 | ------------------ | ---------------------------------------------------------------------------------------------------------- |
 | **Source code**    | [github.com/IMAGIN-studio/api-docs-mcp](https://github.com/IMAGIN-studio/api-docs-mcp)                     |
 | **Package (PyPI)** | [pypi.org/project/imagin-studio-api-docs-mcp](https://pypi.org/project/imagin-studio-api-docs-mcp/)        |
+| **Package (npm)**  | [npmjs.com/package/@imagin.studio/api-docs-mcp](https://www.npmjs.com/package/@imagin.studio/api-docs-mcp) |
 | **PulseMCP**       | [pulsemcp.com/servers/imagin-studio-api-docs](https://www.pulsemcp.com/servers/imagin-studio-api-docs)     |
 | **Glama**          | [glama.ai/mcp/servers/IMAGIN-studio/api-docs-mcp](https://glama.ai/mcp/servers/IMAGIN-studio/api-docs-mcp) |
 
 ### Requirements
 
-You'll need **uv**, a fast Python package manager ([install guide](https://docs.astral.sh/uv/getting-started/installation/)). This is required regardless of whether you use `uvx` or `npx`. Python 3.10+ is also needed but is managed automatically by `uv`.
+You'll need **uv**, a fast Python package manager ([install guide](https://docs.astral.sh/uv/getting-started/installation/)). This is required regardless of whether you use `uvx` or `npx`. Python 3.12+ is also needed but is managed automatically by uv.
 
-If your agent can't find `uvx`, you can use `npx` as an alternative (requires Node.js 18+). See the [PyPI setup guide](https://pypi.org/project/imagin-studio-api-docs-mcp/) for details.
+If your agent can't find `uvx` (common with GUI-launched apps like Claude Desktop and Cursor, which don't inherit your shell PATH), you can use `npx` as an alternative (requires Node.js 18+). The npm package is a thin wrapper that locates `uvx` for you and starts the same server:
+
+```
+npx -y @imagin.studio/api-docs-mcp
+```
+
+In your MCP configuration, replace the `uvx` command with:
+
+```
+{
+  "mcpServers": {
+    "imagin-docs": {
+      "command": "npx",
+      "args": ["-y", "@imagin.studio/api-docs-mcp"]
+    }
+  }
+}
+```
+
+See the [PyPI setup guide](https://pypi.org/project/imagin-studio-api-docs-mcp/) for per-agent instructions.
