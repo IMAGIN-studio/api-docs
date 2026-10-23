@@ -23,5 +23,5 @@ fetchData(); // Make a GET request with custom referrer header
 ```
 
 {% hint style="info" %}
-Our service api’s (getCarListing, getPaints and getPaintSwatches), do pup up in usage but will not be charged.
+Our service api’s (getCarListing, getPaints and getPaintSwatches), do pop up in usage but will not be charged.
 {% endhint %}
