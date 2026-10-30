@@ -8,20 +8,26 @@ Important Considerations\
 While signed URLs enhance security, there are specific behaviors regarding caching and updates that your development team must be aware of to ensure your website always displays the most accurate imagery.
 {% endhint %}
 
-#### Dynamic vs. Static Generation
+## Signed URL Lifecycle & Caching Behavior
 
-To ensure your website always serves the latest vehicle imagery, signed URLs must be dynamically generated on your end at the point of the request.
+A signed URL is a masked representation of your request parameters and your `customerKey`. The `/getSignedUrl` endpoint is fully deterministic: passing identical parameters will always output the exact same signed string. There is no timestamp, salt, or automated expiration built into the URL.
 
-If signed URLs are static, any updates made within our library - such as a new vehicle release, a mapping change, or an image correction - will not be reflected on your website until the signed URL is regenerated.
+* URL Lifetime: A signed URL remains valid for as long as your customer account exists. Individual signed URLs cannot be revoked or invalidated once issued.
+* Storage Recommendation: Because signed URLs are permanent and deterministic, there is no benefit to generating them dynamically on every user request. You can safely store and reuse generated signed URLs in your database or CMS.
 
-* **Best Practice:** Generate signed URLs dynamically. This ensures that the correct images reflect eventually without any manual action required on your end.
-* **Static Risk:** If your implementation relies on static signed URLs, you will need to manually regenerate them whenever a data update is released to pick up the latest changes.
+## Secret Key Hygiene & Rotation
 
-#### Cache Flushing Limitations
+As a security best practice, we strongly encourage regularly rotating your `customerSecret` and retiring old ones.
 
-Because signed URLs mask the request parameters, IMAGIN.studio is unable to manually flush the cache for these specific requests on your behalf.
+* Periodic Rotation: Generating a new `customerSecret` on a regular cadence ensures that credentials used to access the `/getSignedUrl` API remain secure.
+* Credential Scope: The `customerSecret` is passed exclusively in the HTTP `Authorization` header when authenticating to the `/getSignedUrl` endpoint and is not part of the generated string. Rotating or retiring an older secret prevents unauthorized parties from generating new signed URLs; all previously generated signed URLs will continue to function normally.
 
-In practice, this means that if a mapping update or an image correction is deployed on our end, the changes cannot be "forced" to appear via a manual flush of the signed URL. By following the dynamic generation strategy mentioned above, you bypass this limitation and allow the CDN to serve the updated content naturally as the dynamic URL parameters evolve.
+## How Library Updates and Corrections Propagate
+
+The CDN does not evaluate cache hits based on the URL string. When an incoming request arrives—whether signed or bare—the CDN derives its cache key strictly from recognized rendering parameters (e.g., make, model, angle, paint, width, format, zoom, background). Unrecognized parameters are ignored and not included in the cache key.
+
+* Image Corrections & Remappings: When an image correction or mapping adjustment is deployed on our end for an existing configuration, the signed URL does not change. You do not need to regenerate your signed URLs.
+* Cache Resolution: The corrected image will appear automatically at your existing signed URL once the natural CDN cache TTL expires.
 
 ***
 
