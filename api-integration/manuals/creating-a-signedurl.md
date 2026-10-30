@@ -10,7 +10,7 @@ While signed URLs enhance security, there are specific behaviors regarding cachi
 
 ## Signed URL Lifecycle & Caching Behavior
 
-A signed URL is a masked representation of your request parameters and your `customerKey`. The `/getSignedUrl` endpoint is fully deterministic: passing identical parameters will always output the exact same signed string. There is no timestamp, salt, or automated expiration built into the URL.
+The `/getSignedUrl` endpoint is fully deterministic: passing identical parameters will always output the exact same signed string. There is no timestamp, salt, or automated expiration built into the URL.
 
 * URL Lifetime: A signed URL remains valid for as long as your customer account exists. Individual signed URLs cannot be revoked or invalidated once issued.
 * Storage Recommendation: Because signed URLs are permanent and deterministic, there is no benefit to generating them dynamically on every user request. You can safely store and reuse generated signed URLs in your database or CMS.
